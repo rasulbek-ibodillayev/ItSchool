@@ -1,0 +1,75 @@
+@media only screen and (max-width:564px)
+{
+    #ism
+{
+    border-radius: 10px;
+    width: 90%;
+    float: left;
+    font-size: 20px;
+    margin-left: 4vw;
+}
+    div
+    {
+        height: 100%;
+        width: 100%;
+        border-color: white;
+    }
+    #familiya
+    {
+        border-radius: 10px;
+        width: 90%;
+        float: left;
+        font-size: 20px;
+        margin-left: 4vw;
+        margin-top: 0.1vh;        
+    }
+    #email
+    {
+        border-radius: 10px;
+        width: 90%;
+        float: left;
+        font-size: 20px;
+        margin-left: 4vw;
+    }
+    #password , #password2
+    {
+        border-radius: 10px;
+        width: 90%;
+        float: left;
+        font-size: 20px;
+        margin-left: 4vw;
+        margin-top: 1vh;        
+    }
+    #box
+    {
+        position: relative;
+        left: 2vh;
+    }
+    p
+    {
+        font-size: 15px;
+    }
+    #link
+    {
+        color: grey;
+        text-decoration: none;
+    }
+    #link:hover
+    {
+        color: green;
+    }
+    #button
+{
+    font-size: 20px;
+    position: relative;
+    left: 7vw;
+    margin: 20vw;
+    border-radius: 10px;
+    background-color: rgb(83, 167, 200);
+}
+    body
+    {
+        padding: 0px;
+        margin-left: 2vw;
+    }
+}
