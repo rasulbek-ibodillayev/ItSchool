@@ -69,6 +69,7 @@
    }
    .exit{
        display: block;
+       cursor: pointer;
    }
    #Check:checked~.bars{
        display: none;
