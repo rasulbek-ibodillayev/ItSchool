@@ -1,10 +1,13 @@
 @media only screen and (max-width:576px){
-
+    body{
+        overflow: hidden;
+    }
     .section-one{
         width: 100%;
         position: relative;
         left: -200%;
         z-index: 9999999999999999999999999999999999999999999999999999;
+        transition: 1s;
     }
     .photos-fon{
         width: 152px;
@@ -55,13 +58,20 @@
        left: 90%;
        display: block;
        position: absolute;
-       margin-top: -5px;
-       left: 287%;
-       z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
-       top: 4%;
+       margin-top: 15px;
+       z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+       top: 10%;
        font-size: 18px;
    }
-  .bars:checked ~ .section-one{
-      left: 0%;
-  }
+   #Check:checked ~ .section-one{
+       left: 0%;
+
+   }
+   .exit{
+       display: block;
+   }
+   #Check:checked~.bars{
+       display: none;
+   }
+ 
 }

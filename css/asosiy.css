@@ -21,7 +21,7 @@
     top: 5%;
 }
 .photos{
-    background-image: url("../picture/itpark.jpg");
+    background-image: url("../picture/AbdulazizFoto.jpg");
     background-size: 100%,200%;
     width: 180px;
     height: 180px;
@@ -120,11 +120,15 @@ header img {
     display: none;
 }
 .exit{
-    position: relative;
-    left: -2%;
-    top: 2%;
+    font-size: 25px;
+    float: right;
+    margin: 25px;
     display: none;
-}
+    
+    
+    color: white;
+}    
+
 input{
     display: none;
 }
