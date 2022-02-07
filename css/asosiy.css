@@ -109,31 +109,11 @@ nav ul li a:hover{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.522);
 }
-.Style{
-    float: right;
-    width: 50%;
-    height: 100%;
-    margin-right: 50px;
 
-}
-.Style img{
-    margin-top: 100px;
-    width: 900px;
-    height: 850px;
-} 
-.Style-two{
-    margin-top: 340px;
-    float:right;
-    width: 45%;
-    height: 45%;
-    border-radius: 15px;
-}
-.Text5{
-    color: rgba(0, 0, 0, 0.122);
-    font-size: 18px;
-    text-shadow: 0 0 2px rgba(255, 255, 0, 0.519);
-    font-family: 'Courier New', Courier, monospace;
-}
+
+
+
+
 .btn{
     width: 25%;
     height: 50px;

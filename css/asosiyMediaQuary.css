@@ -1,6 +1,6 @@
 @media only screen and (max-width:576px){
     body{
-        overflow: hidden;
+        overflow: scroll;
     }
     .section-one{
         width: 100%;
@@ -85,5 +85,6 @@
        display: none;
        transition-delay: 1s;
    }
+  
  
 }
