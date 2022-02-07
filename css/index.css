@@ -1,102 +1,145 @@
 /* Web-site Welcom to */
 *
 {
-    overflow: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
-#ism
-{
-    border-radius: 10px;
-    width: 45%;
-    float: left;
-    margin: 20px;
+body{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url("../picture/abdulaziz/hu.jpeg");
+    background-size: 100%,100%;
+}
+section{
+    left: -100%;
     position: relative;
-    font-size: 20px;
-}
-body
-{
-    background-image: url(https://storge.pic2.me/cm/3840x2160/385/57cb1199abf34.jpg);
-    padding-left: 30%;
-}
-div
-{
-    height: 100%;
+    top: 100px;
     width: 50%;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-#familiya
-{
+    height: 0px;
+    margin: auto;
+   background-color: white;
+   box-shadow: 0 0 5px black, 0 0 10px black;
+
+    transition: .5s;
     border-radius: 10px;
-    width: 45%;
-    font-size: 20px;
-    float: left;
-    margin-top: 20px;
 }
-#email
-{
-    border-radius: 10px;
-    font-size: 20px;
-    width: 93%;
-    margin: 20px;
-}
-#password , #password2
-{
-    border-radius: 10px;
-    width: 93%;
-    font-size: 20px;
-    margin: 20px;  
-}
-ul li a
-{
-    font-size: 25px;
-    color: cyan;
-}
-p
-{
-    font-size: 25px;
-    display: inline;
-    color: white;
-}
-h1
-{
+h1{
     text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
 }
-#box
-{
-    position: relative;
-    left: 2vh;
-}
-#box1
-{
-    position: relative;
-    left: 2vh
+.n1{
+
+    margin-top: 70px;
+    width: 45%;
+    height: 50px;
+    border-radius: 25px;
+    background: none;
+    border: none;
+    font-size: 18px;
 
 }
-#link
-{
-    color: black;
-    font-size: 20px;
+.n2{
+    margin-top: 40px;
+    width: 93%;
+    height: 50px;
+    border: none;
+    padding-left: 5px;
+    background: none;
+    
+    font-size: 18px;
+
+}
+.n4{
+    width: 90%;
+
+    border-bottom: 1px solid black;
+    margin-left: 25px;
+}
+.n5{
     position: relative;
-    left: 4vh;
-    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 40%;
+    left: 3%;
+
 }
-input:hover
-{
-    box-shadow: 2px 4px 6px rgb(180, 180, 180);
-    transition: 1s;
-}
-#link:hover
-{
-    color: red;
-    transition: 0.5s;
-    border-bottom: 2px solid red;
-}
-#button
-{
-    font-size: 40px;
+#n5{
+    width: 37%;
     position: relative;
-    left: 7vw;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgb(83, 167, 200);
+    top: -0.5%;
+    left: 15%;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    left: -52%;
+    
+    top: 15%;
+    z-index: 99;
+    
+    
+}
+#check{
+    display: none;
+}
+#check:checked ~ section{
+    left: -20%;
+    transition: .8s;
+    height: 650px;
+    
+}
+#check:checked ~ .ico{
+    display: block;
+    left: 52%;
+    transition: .8s;
+}
+#check:checked ~ #Regs{
+    position: relative;
+    left: -100%;
+    transition: .5s
+    ;
+}
+#Regs{
+    font-family: sans-serif;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    z-index: 999;
+   width: 200px;
+   padding: 10px 50px;
+   border-radius: 25px;
+   color: white;
+   font-size:  18px; 
+   background-color: rgba(31, 31, 187,00.3);
+    border: 2px solid blue;
+    transition: .4s;
+}
+#Regs:hover{
+    background-color: rgb(31, 31, 187);
+    cursor: pointer;
+}
+.btn{
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .6s;
+    margin-top: 50px;
+    margin-left: 22px;
+
+}
+.btn:hover{
+    background-color: black;
 }

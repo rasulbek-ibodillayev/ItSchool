@@ -1,75 +1,40 @@
-@media only screen and (max-width:564px)
+@media only screen and (max-width:576px)
 {
-    #ism
-{
-    border-radius: 10px;
-    width: 90%;
-    float: left;
-    font-size: 20px;
-    margin-left: 4vw;
-}
-    div
-    {
-        height: 100%;
-        width: 100%;
-        border-color: white;
+    body{
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: 100%,100%;
+        background-image: url("../picture//abdulaziz/16008700225f6b5686aefa5.jpeg");
+
     }
-    #familiya
-    {
-        border-radius: 10px;
-        width: 90%;
-        float: left;
-        font-size: 20px;
-        margin-left: 4vw;
-        margin-top: 0.1vh;        
-    }
-    #email
-    {
-        border-radius: 10px;
-        width: 90%;
-        float: left;
-        font-size: 20px;
-        margin-left: 4vw;
-    }
-    #password , #password2
-    {
-        border-radius: 10px;
-        width: 90%;
-        float: left;
-        font-size: 20px;
-        margin-left: 4vw;
-        margin-top: 1vh;        
-    }
-    #box
-    {
+    .Sec{
         position: relative;
-        left: 2vh;
+        top: -7%;
+        width: 100%;
+        height: 0px;
+        border-radius: 0;
+        left: -100%;
+        
     }
-    p
-    {
-        font-size: 15px;
+    #check:checked ~ .Sec{
+        left: 0;
+        height: 615px;
     }
-    #link
-    {
-        color: grey;
-        text-decoration: none;
-    }
-    #link:hover
-    {
-        color: green;
-    }
-    #button
-{
-    font-size: 20px;
-    position: relative;
-    left: 7vw;
-    margin: 20vw;
-    border-radius: 10px;
-    background-color: rgb(83, 167, 200);
+
+#check:checked ~ .ico{
+    left: 89%;
+    top: 7%;
 }
-    body
-    {
-        padding: 0px;
-        margin-left: 2vw;
-    }
+#Regs{
+    position: relative;
+    left: 10%;
+}
+   .ico{
+       left: -100%;
+   }
+.n5{
+    margin-left: 10px;
+}
+#n5{margin-left: 2px;
+}
 }
