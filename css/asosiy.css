@@ -129,7 +129,9 @@ nav ul li a:hover{
     border-radius: 15px;
 }
 .Text5{
+    color: rgba(0, 0, 0, 0.122);
     font-size: 18px;
+    text-shadow: 0 0 2px rgba(255, 255, 0, 0.519);
     font-family: 'Courier New', Courier, monospace;
 }
 .btn{
