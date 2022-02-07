@@ -1,156 +1,265 @@
 *{
-    padding: 0;
     margin: 0;
-    font-family: 'Heebo', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
 }
-#header{
-    background-color: rgb(41, 38, 38);
-    position: sticky;
-    top: 0;
-    border-bottom: 4px solid rgb(14, 126, 14);
+.section-one{
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    transition: all .9s ease-in-out;
+
 }
-.conteinerbar{
-    width: 90%;
+.photos-fon{
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    left:25%;
+    top: 5%;
+}
+.photos{
+    background-image: url(../pictures/photo_2022-02-05_14-23-02.jpg);
+    background-size: 100%,200%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    left: 4%;
+    top: 3.7%;
+
+}
+.Text{
+    width: 100%;
+   margin-top: 60px;
+   margin-left: 70px;
+   font-size: 25px;
+   font-family: cursive;
+   display: inline-block;
+}
+.Text2{
+    margin-left: 100px;
+    font-size: 18px;
+    color: rgba(211, 211, 211, 0.562);
+    font-family: monospace;
+}
+nav{
+    width: 85%;
+    margin-left: 22px;
+}
+.Asosiy a{
+    background-color: rgba(255, 255, 0, 0.519);
+}
+nav ul {
+    
+    list-style-type: none;
+    margin-top: 60px;
+    
+}
+nav ul li {
+    text-align: center;
+    
+    
+
+}
+nav ul li a{
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    border-radius: 35px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    margin-left: 10px;
+    
+    
+}
+nav ul li a:hover{
+    background-color: rgba(255, 255, 0, 0.519);
+    color: white;
+}
+.exit{
+    display: none;
+} 
+
+.asosiy{
+    width: 80%;
+    float: right;
+    height: 100h;
+    transition: all .9s ease-in-out;
+}
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    z-index: 111;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../pictures/databaza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.itpark span{
+    color: yellow;
+    float: left;
+    padding: 0 10px;
+}
+.itpark {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 15px 45px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.itpark h1{
+    display: inline-block;
+}
+.itpark i{
+    padding: 0 10px;
+    color: #fff;
+    padding: 15px 15px;
+}
+.itpark img{
+    float: right;
+    width: 100%;
+}
+.itimg{
+    width: 150px;
+    display: inline;
+    float: right;
+}
+
+
+
+.contact{
+    width: 70%;
     margin: auto;
 }
-#header h1{
-    color: #fff;
-    font-size: 2em;
-    padding: 23px 0;
-    display: inline-block;
-
+.logo{
+    width: 100%;
+    margin-top: 6%;
 }
-#header .logo{
-    color:rgb(14, 126, 14);
-}
-#check{
-    display: none;
-}
-#checked{
-    color: #fff;
-    font-size: 30px;
-    padding: 13px 10px;
-    padding-top: 15px;
-    display: none;
-    float: right;
-}
-.nawbar{
-    float: right;
-
-}
-.nawbar li{
-    display: inline;
-}
-.nawbar li a{
-    color: #fff;
-    font-size: 1.2em;
-    margin: 32px 15px;
-    text-decoration: none;
-    display: inline-block;
-}
-.nawbar li a:hover{
-    color:rgb(14, 126, 14);
-}
-.li-a{
-    border-bottom: 2px solid rgb(14, 126, 14);
-}
-.li-i{
-    border-bottom: 2px solid rgb(14, 126, 14);
-}
-.nawbar i{
-    color: rgb(14, 126, 14);
-    font-size: 22px;
-}
-
-/*header end*/
-/*Asosiy start*/
-
-.backleft{
-    width: 55%; 
+.logo-text{
+    width: 25%;
     float: left;
-    height: 90vh;
+    padding: 30px 0;
 }
-.backright{
-    width: 45%;
-    height: 90vh;
-    float: left;
-    /*background-color: rgb(14, 126, 14);*/
-}
-.conteiner{
-    margin: 10% 10%;
-}
-.malumot-h1{
-    font-family: 'Heebo', sans-serif;
+.logo-text i {
+    display: block;
     text-align: center;
+    font-size: 48px;
     padding: 10px 0;
+    color: yellow;
 }
-.malumot-div{
-    border-bottom: 2px solid rgb(14, 126, 14);
-}
-.location{
-    margin: 60px 0;
-}
-.location p{
-    color: rgb(100, 96, 96);
-    margin: 20px 0;
-    font-size: 1.2em;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(153, 147, 147);
-}
-.location-span{
-    color: rgb(14, 126, 14);
-}
-.location i{
-    padding: 0 10px;
-    font-size: 24px;
-    color: rgb(14, 126, 14);
-}
-
-
-.itparkdiv{
-    width: 100%;
-}
-.itparkdiv img{
-    width: 70%;
-    padding-left: 80px;
-    padding-top: 20px;
-}
-.imgrightdiv{ 
-    width: 100%;
-    height: 530px;
-    margin-top: 50px;
-    overflow: hidden;
-    border-radius: 15px;
-}
-.imgrightdiv img{
-    width: 100%;
-    border-radius: 15px;
-}
-
-.aboutinfo{
-    width: 100%;
-    height: 250px;
-    margin-top: 100px;
-    background-color: rgb(14, 126, 14);
-    border-radius: 60px;
-}
-
-.contactico{
-    width: 24%;
-    float: left;
-    margin-top: 60px;
-}
-.contactico i{
-    width: 100%;
+.logo-text h3 {
     text-align: center;
-    font-size: 38px;
+    padding: 15px 0;
     color: #fff;
 }
-.contactico i:hover{
+.logo-text a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #fff;
+}
+.logo-text p {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #fff; 
+}
+[class*=telegram]:hover {
+    color: rgb(43,162,222);
+    transition: .3s ease;
+}
+[class*="map"]:hover {
+    color: red;
+    transition: .3s ease;
+}
+[class*="phone"]:hover {
+    color: green;
+    transition: .3s ease;
+}
+[class*="at"]:hover {
+    color: white;
+    transition: .3s ease;
+}
+
+
+input {
+    outline: none;
+    border: none;
+    transition: .4s;
+}
+input[type="text"]:focus {
+    box-shadow: 0 0 10px yellow;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.name .name1 {
+    width: 48%;
+    float: left;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.name .name2 {
+    width: 48%;
+    float: right;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.phone input{
+    width: 100%;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.sms input{
+    width: 100%;
+    padding: 10px 25px;
+    padding-bottom: 100px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.button input{
+    width: 200px;
+    float: left;
+    padding: 15px 25px;
+    margin: 25px 10px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: 1s;
+    background-color: yellow;
 }
-.fab-p{
-    font-size: 1.3em;
-    margin-left: 55px;
+.button input:hover {
+    padding: 15px 25px;
+    transform: scale(1.1);
+    transition: all .3s;
 }
-/* Asosiy */
+input[type="button"] {
+    font-size: 16px;
+    color: #303030;
+}
+input[type="reset"] {
+    font-size: 16px;
+    color: #303030;
+}
+
