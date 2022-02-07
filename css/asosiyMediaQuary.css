@@ -1,6 +1,6 @@
 @media only screen and (max-width:576px){
     body{
-        overflow: hidden;
+        overflow: scroll;
     }
     .section-one{
         width: 100%;
@@ -13,6 +13,14 @@
         width: 152px;
         height: 152px;
         left: 30%;
+    }
+    .Text{
+        font-size: 20px;
+        margin-left: 20%;
+        color: white;
+    }
+    .Text2{
+        margin-left: 25%;
     }
     .photos{
         width: 145px;
@@ -40,7 +48,8 @@
        position: relative;
        top: -100%;
        width: 100%;
-       background-image: url("../picture/tratuar.jpg");
+       background-image: url("../picture/nnn.jpg");
+       background-size: 100%,100%;
 
 
    }
@@ -62,6 +71,7 @@
        z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
        top: 10%;
        font-size: 18px;
+       color: white;
    }
    #Check:checked ~ .section-one{
        left: 0%;
@@ -73,6 +83,8 @@
    }
    #Check:checked~.bars{
        display: none;
+       transition-delay: 1s;
    }
+  
  
 }
