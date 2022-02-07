@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family:sans-serif ;
 }
-body{
-    overflow: hidden;
-}
 .section-one{
     float: left;
     width: 20%;
@@ -95,15 +92,9 @@ nav ul li a:hover{
     float: left;
     height: 100vh;
 }
-/*.background{
-    width: 100%;
-    height: 100vh;
-    float: left;
-    background-image: url("../pictures/databaza.jpg");
-}*/
 #particles-js{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     float: left;
     z-index: 111;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../pictures/databaza.jpg");
@@ -137,5 +128,111 @@ nav ul li a:hover{
     width: 150px;
     display: inline;
     float: right;
+}
+
+
+
+.contact{
+    width: 70%;
+    margin: auto;
+}
+.logo{
+    width: 100%;
+    margin-top: 6%;
+}
+.logo-text{
+    width: 25%;
+    float: left;
+    padding: 30px 0;
+}
+.logo-text i {
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    padding: 10px 0;
+    color: yellow;
+}
+.logo-text h3 {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+.logo-text a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #fff;
+}
+.logo-text p {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #fff; 
+}
+
+
+input {
+    outline: none;
+    border: none;
+    transition: .4s;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.name .name1 {
+    width: 48%;
+    float: left;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.name .name2 {
+    width: 48%;
+    float: right;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.phone input{
+    width: 100%;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.sms input{
+    width: 100%;
+    padding: 10px 25px;
+    padding-bottom: 100px;
+    margin: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(82, 82, 82);
+}
+.button input{
+    width: 200px;
+    float: left;
+    padding: 15px 25px;
+    margin: 25px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: yellow;
+}
+input:hover {
+    box-shadow: 3px 3px 3px rgb(73, 73, 73);
+    transition: .4s;
+}
+.button input:hover {
+    padding: 15px 25px;
+    transform: scale(1.1);
+    transition: all .3s;
 }
 
