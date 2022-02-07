@@ -67,7 +67,11 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
+<<<<<<< HEAD
         color: '#fff',
+=======
+        color: '#f30101',
+>>>>>>> c9ba9e8ae9ca3ad2621628beeb65224aeee29d87
         opacity: 1,
         width: 1
       },

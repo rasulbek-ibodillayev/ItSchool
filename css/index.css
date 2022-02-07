@@ -1,0 +1,102 @@
+/* Web-site Welcom to */
+*
+{
+    overflow: none;
+}
+#ism
+{
+    border-radius: 10px;
+    width: 45%;
+    float: left;
+    margin: 20px;
+    position: relative;
+    font-size: 20px;
+}
+body
+{
+    background-image: url(https://storge.pic2.me/cm/3840x2160/385/57cb1199abf34.jpg);
+    padding-left: 30%;
+}
+div
+{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#familiya
+{
+    border-radius: 10px;
+    width: 45%;
+    font-size: 20px;
+    float: left;
+    margin-top: 20px;
+}
+#email
+{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 93%;
+    margin: 20px;
+}
+#password , #password2
+{
+    border-radius: 10px;
+    width: 93%;
+    font-size: 20px;
+    margin: 20px;  
+}
+ul li a
+{
+    font-size: 25px;
+    color: cyan;
+}
+p
+{
+    font-size: 25px;
+    display: inline;
+    color: white;
+}
+h1
+{
+    text-align: center;
+}
+#box
+{
+    position: relative;
+    left: 2vh;
+}
+#box1
+{
+    position: relative;
+    left: 2vh
+
+}
+#link
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 4vh;
+    text-decoration: none;
+}
+input:hover
+{
+    box-shadow: 2px 4px 6px rgb(180, 180, 180);
+    transition: 1s;
+}
+#link:hover
+{
+    color: red;
+    transition: 0.5s;
+    border-bottom: 2px solid red;
+}
+#button
+{
+    font-size: 40px;
+    position: relative;
+    left: 7vw;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(83, 167, 200);
+}
