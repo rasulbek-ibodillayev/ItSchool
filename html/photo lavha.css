@@ -1,0 +1,30 @@
+*
+{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+}
+body
+{
+    background: url("https://media.istockphoto.com/vectors/computer-vector-banner-word-with-line-icon-vector-background-vector-id955776896");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    width: 100%;
+    height: 37vh;
+}
+img
+{
+    transition: 0.3s;
+    border-radius: 15px;
+    position: relative;
+    width: 15%;
+    height: 250px;
+}
+img:hover
+{
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+}
