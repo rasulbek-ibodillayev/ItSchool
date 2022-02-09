@@ -1,0 +1,10 @@
+@media only screen  and (max-width:1465px){
+
+    .checked
+    {
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+}
